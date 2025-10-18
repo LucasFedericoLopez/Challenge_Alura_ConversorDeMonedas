@@ -1,4 +1,6 @@
 package com.alura.monedas;
 
-public record TipoMoneda() {
+import java.util.Map;
+
+public record TipoMoneda(String result,String base_code, Map<String, Double> conversion_rates) {
 }
